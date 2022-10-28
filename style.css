@@ -4,6 +4,7 @@ body, ul, li, p{
     list-style: none;
     font-size: 1.3rem;
     font-family: cursive;
+    /* Criar um modelo padrão */
 }
 a{
     text-decoration: none;
@@ -16,6 +17,7 @@ header{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* Estilo do cabeçalho */
 }
 .menu{
     display: flex;
@@ -27,6 +29,7 @@ header{
     display: block;
     padding: 10px;
     background: white;
+    /* Espaçamento de aréa clicavel */
 }
 h1{
     text-align: center;
@@ -41,10 +44,12 @@ img{
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
+    /* Utilizado para organizar os itens de acordo com o tamnaho da tela utilizada */
 }
 .flex>div{
     flex: 1 1 200px;
     margin: 10px 10px;
+    /* Mostra que pode ter a quebra de linha se necessário */
 
 }
 .grid1{
